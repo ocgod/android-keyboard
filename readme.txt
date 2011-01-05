@@ -1,6 +1,6 @@
 This program is for send keyboard event to android device via USB(adb)
 
-Tested in Ubuntu 9.04 with asus
+Tested in Ubuntu 9.04 with Nexus one
 
 compile:
 	make main
