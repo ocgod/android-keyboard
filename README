@@ -1,12 +1,31 @@
 This program is for send keyboard event to android device via USB(adb)
-
 Tested in Ubuntu 9.04 with Nexus one
 
+===========================
+issues
+===========================
+There some keyevent no use or I don't know it's mean, so I just mark it.
+key events defined in key.h
+
+
+
+
+===========================
 compile:
+===========================
 	make
 
+===========================
 usage: 
+===========================
 	1. connect android device to your computer
 	2. ensure select "Settings/Application/Development/USB debugging notify" in your android device
-	3. run akb
+	3. run akb, then press your keyboard
 
+===========================
+Spetial buttons
+===========================
+	Home button	<F4>
+	Menu button	<F5>
+	Back button	<F6>
+	Search button	<F7>
