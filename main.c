@@ -15,7 +15,7 @@
 #include <unistd.h>
 
 #include "main.h"
-#include "cmd.h"
+#include "key.h"
 
 static int S;
 
